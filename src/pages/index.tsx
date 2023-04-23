@@ -79,7 +79,7 @@ const Home: NextPage = () => {
             disabled={isRolling}
             className={clsx(
               "rounded-full",
-              "bg-orange-600 px-16 py-3 text-white",
+              "py-3” bg-orange-600 px-16 text-white",
               "disabled:bg-orange-500",
               "shadow-2xl",
               "transition-all",

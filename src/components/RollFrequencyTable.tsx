@@ -18,7 +18,7 @@ const RollFrequencyTable: FC<Props> = ({ rollsMap, isRolling }) => {
 
   return (
     <div className="mt-8 w-full max-w-[24rem] space-y-1 px-10">
-      {diceKeys.map((_key, idx) => {
+      {diceKeys.map((_key) => {
         const key = _key as DiceNumber;
         const percentage =
           rollsMap[key] && rollSum
