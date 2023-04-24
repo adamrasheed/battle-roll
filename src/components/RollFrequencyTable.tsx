@@ -8,7 +8,7 @@ type Props = {
   isRolling?: boolean;
 };
 
-const RollFrequencyTable: FC<Props> = ({ rollsMap, isRolling }) => {
+const RollFrequencyTable: FC<Props> = ({ rollsMap }) => {
   const diceKeys = Array.from({ length: 6 }, (_, i) => i + 1);
 
   const rollSum = Object.keys(rollsMap).reduce((acc, key) => {
